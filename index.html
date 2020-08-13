@@ -1,8 +1,262 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <body>
-        <h1>Webpage Under Construction</h1>
-        <p>Come back in a little bit!</p>
-        <iframe src='https://gfycat.com/ifr/LonelyIcyCusimanse' frameborder='0' scrolling='no' allowfullscreen width='640' height='525'></iframe>    
-    </body>
+	<head>
+		<title>Mark's Site</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/icon.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Mark Beshara</h1>
+							<p>B.S. Computer Engineering, OSU M.S. Computer Science, OSU</p>
+							<p>Applying AI to complex problems</p>
+							<ul class="actions">
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="images/pic01_2.jpg" alt="" /></span>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="first">
+						<header>
+							<h2>About Me</h2>
+						</header>
+						<div class="content">
+							<p>Hi, I'm <strong>Mark Beshara</strong> and I'm programmer specialzing in artifical intellegicene. My interests are in a variety 
+							of AI domains but I'm primarily interested in reinforcement learning and natural langauge processing. In addition to my primary interests I am also knowledgable in 
+							classical machine learning and deep learning. I hope to apply AI to challenging problems that currently cannot be solved by traditional means or 
+							can be vastly improved through new technology. To do so, I am always looking for opportunities to learn new skills and knowledge. Currently I am purusuing this 
+							goal through the search of internship opportunities which hopefully would allow me to transition to a PhD program in Autumn 2021 to further my education. </p>
+							<span class="image main"><img src="images/pic02.jpg" alt="profile picture" /></span>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Skills </h2>
+						</header>
+						<div class="content">
+							<table>
+								<tbody>
+									<tr>
+										<th><strong>General Skills</strong></th>
+										<th><strong>ML Tools</strong></th>
+										<th><strong>Languages</strong></th>
+									</tr>
+									<tr>
+										<td>
+											<ul style="list-style-type:none">
+												<li>Software Development</li>
+												<li>Algorithms</li>
+												<li>Git</li>
+												<li>REST</li>
+												<li>Linux/UNIX Enviorments</li>
+												<li>Jupyter Notebooks</li>
+												<li>Statistical Machine Learning</li>
+												<li>Neural Networks/ Deep Learning</li>
+												<li>Data Mining</li>
+												<li>Computer Vision</li>
+												<li>Natural Language Processing</li>
+												<li>Reinforcement Learning</li>
+												<li>Optimization</li>
+											</ul>
+										</td>
+										<td>
+											<ul style="list-style-type:none">
+												<li>Sci-kit Learn</li>
+												<li>Numpy</li>
+												<li>Pandas</li>
+												<li>Stable-Baselines</li>
+												<li>Gym</li>
+												<li>Keras</li>
+											</ul>
+										</td>
+										<td>
+											<ul style="list-style-type:none">
+												<li>Python</li>
+												<li>Java</li>
+												<li>C</li>
+												<li>HTML/CSS</li>
+												<li>MATLAB</li>
+											</ul>
+										</td>
+									</tr>	
+								</tbody>
+							</table>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Projects</h2>
+						</header>
+						<div class="content">
+							<h3 style="color: black;">Table of Contents</h3>
+							<ul>
+								<li><a href="#bitcoin" style="color: black;">RL Bitcoin Trader </a></li>
+								<li><a href="#disaster" style="color: black;">Kaggle Real or Not? NLP with Disaster Tweets Competition</a></li>
+								<li><a href="#idc9" style="color: black;">Visualizing ICD-9 Code Predicitions</a></li>
+								<li><a href="#lisp" style="color: black;">Lisp Interpreter</a></li>
+
+
+							</ul>
+							<!-- Section -->
+							<section id="bitcoin">
+								<header>
+									<h3>RL Bitcoin Trader</h3>
+									<p> Taught a RL agent to trade Bitcoin with positive profit on unseen test data using historical crypto data and Stable-Baselines RL library.
+									</p>
+								</header>
+								<div class="content">
+									<p>This project is currently in development, but prelimiary results will be posted soon.</p>
+								</div>
+							</section>
+							<section id="disaster">
+								<header>
+									<h3>Kaggle Real or Not? NLP with Disaster Tweets Competition</h3>
+									<p> Project designed to classify tweets depending on whether or not the tweet represents discusses 
+										a tragedy or not. 
+										
+									</p>
+								</header>
+								<div class="content">
+									<p>This project was done as part of the <a style="color: black;" href="https://www.kaggle.com/c/nlp-getting-started"> Real or Not? NLP with Disaster Tweets</a>
+										kaggle Competition. The data provided from Competition was first procesed, by tokenizing the sentences, and embedding each token using pre-trainined GloVe word
+										embeddings. An average of all token embeddings was taken to create a feature vector that could be used in any machine learning classifier. A random forest classifier 
+										was then used and optimized using a cross-validation grid search. The github repository can be found <a href="https://github.com/mark-beshara/DisasterTweetPrediction" style="color: black;">here</a>.
+									</p>
+								</div>
+							</section>
+							<section id="idc9">
+								<header>
+									<h3>Visualizing ICD-9 Code Predicitions</h3>
+									<p> Explainable AI project which visualized components of convolutional neural networks to better understand classification decisions.
+									</p>
+								</header>
+								<div class="content">
+									<p>
+										This project focused on visualizing the attention scores from pretrained CNN models for the mult-class classification problem of assigning ICD-9 codes to discharge summaries. 
+										The project used the MIMIC-III dataset, and the pre-trained model was the CAML model, where one can read about <a style="color: black;" href="https://arxiv.org/pdf/1802.05695.pdf">here</a>, 
+										and find the github repository <a style="color: black;" href="https://github.com/jamesmullenbach/caml-mimic">here</a>.
+									</p>
+
+									<p> Our project modified the original scripts to save the attention weights and ouputs from the pre-trained model for a series of discharge summaries with true labels known. We visualized
+										the results by writing an interactive tool with D3 to visualize the attention score for each word in the discharge summary for each label. Unfortunately the MIMIC-III dataset cannot be 
+										publicly released, so the D3 script is useless without it. However below you will find 2 presentations on this project with a more thorough explanation of the project as well
+										as some examples.
+									</p>
+									<p style="text-align: center;" ><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRAjC-vJWWqE_FWVjjHoT5Kdq_PC7knwtWoI0M61kTHxqRJWy0v396_YikIWZ_u5Syheq_hJ1NkVpFu/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>								
+									<p style="text-align: center;" ><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTLtY2VMnpvl_bTaq5KdeymVVOSopv_4_-YOcXX3pJ9sqr9JbYe7cis8n8nInmfqwxczZA8j7y__Or/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+								</div>
+							</section>
+							<section id="lisp">
+								<header>
+									<h3>LISP Interpreter</h3>
+									<p>A LISP Interpreter written in python that reads in LISP expressions from a file and evaluates them. Examples of inputs and outputs are displayed here.
+										Unfortunately this was a class project so I cannot publish the code publicly, however potential employers feel free to reach out to me and I am happy to 
+										share it privately.
+									</p>
+								</header>
+								<div class="content">
+									<p>Unfortunately this project was part of a class project and therefore I cannon't publish the code publicly. However, an example input file and an example output to the console can 
+										be seen below.
+									</p>
+									<div class="gallery">
+										<a href="images/gallery/fulls/lisp_2.jpg" class="landscape"><img src="images/gallery/thumbs/lisp_2.jpg" alt="" /></a>
+									</div>
+									<p style="text-align: center;">Input file</p>
+									<div class="gallery">
+										<a href="images/gallery/fulls/lisp_1.jpg" class="landscape"><img src="images/gallery/thumbs/lisp_1.jpg" alt="" /></a>
+									</div>
+									<p style="text-align: center;">Console output</p>
+
+								</div>
+							</section>
+
+						</div>
+					</section>
+					
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Get in touch</h2>
+						</header>
+						<div class="content">
+							<p>Let's make something <strong>interesting</strong>!</p>
+							<form action="https://formspree.io/meqrvvrl" method="POST">
+								<div class="fields">
+									<div class="field half">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="_replyto" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+									</div>
+									<div class="field half">
+										<input type="text" name="_gotcha" style="display:none" />
+									</div>
+									<input type="hidden" name="_subject" value="Website contact" />
+									<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="button primary"/></li>
+								</ul>
+							</form>
+						</div>
+						<footer>
+							<ul class="items">
+								<li>
+									<h3>Email</h3>
+									<a href="markapbeshara@gmail.com">markapbeshara@gmail.com</a>
+								</li>
+								<li>
+									<h3>Elsewhere</h3>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/mark-beshara-1a4848104/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/mark-beshara" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="https://www.hackerrank.com/thegreatmarker" class="icon brands fa-hackerrank"><span class="label">HackerRank</span></a></li>
+										<li><a href="https://medium.com/@markbeshara" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+
+									</ul>
+								</li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Copyright -->
+					<div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
