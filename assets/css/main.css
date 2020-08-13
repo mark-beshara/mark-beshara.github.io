@@ -3780,6 +3780,7 @@ input, select, textarea {
 
 	body.is-mobile #wrapper > section > header {
 		background-attachment: scroll;
+		color: #000000;
 		background-position: 25% 50%;
 	}
 
