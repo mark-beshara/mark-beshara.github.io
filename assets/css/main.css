@@ -272,7 +272,7 @@ input, select, textarea {
 
 	}
 
-	@media screen {
+	@media only screen and (hover: none) and (pointer: coarse) {
 		#wrapper section.intro > header > p{
 			color: #ffffff
 		}
