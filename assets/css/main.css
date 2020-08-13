@@ -87,6 +87,7 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+		
 
 	}
 
@@ -259,6 +260,7 @@ input, select, textarea {
 
 		h3 {
 			font-size: 0.9rem;
+			color: #000000;
 		}
 
 		h4 {
@@ -267,6 +269,10 @@ input, select, textarea {
 
 		h5 {
 			font-size: 0.675rem;
+		}
+
+		p{
+			color: #000000;
 		}
 
 	}
@@ -283,6 +289,7 @@ input, select, textarea {
 
 		h3 {
 			font-size: 0.8rem;
+			color: #000000;
 		}
 
 		h4 {
@@ -292,6 +299,11 @@ input, select, textarea {
 		h5 {
 			font-size: 0.675rem;
 		}
+		
+		p{
+			color: #000000;
+		}
+
 
 	}
 
@@ -3780,7 +3792,6 @@ input, select, textarea {
 
 	body.is-mobile #wrapper > section > header {
 		background-attachment: scroll;
-		color: #000000;
 		background-position: 25% 50%;
 	}
 
