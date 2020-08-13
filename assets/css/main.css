@@ -260,7 +260,6 @@ input, select, textarea {
 
 		h3 {
 			font-size: 0.9rem;
-			color: #000000;
 		}
 
 		h4 {
@@ -271,10 +270,16 @@ input, select, textarea {
 			font-size: 0.675rem;
 		}
 
-		p{
-			color: #000000;
+	}
+
+	@media screen {
+		#wrapper section.intro > header > p{
+			color: #ffffff
 		}
 
+		#wrapper section > header > h3, p{
+			color: #000000
+		}
 	}
 
 	@media screen and (max-width: 360px) {
@@ -289,7 +294,6 @@ input, select, textarea {
 
 		h3 {
 			font-size: 0.8rem;
-			color: #000000;
 		}
 
 		h4 {
@@ -298,10 +302,6 @@ input, select, textarea {
 
 		h5 {
 			font-size: 0.675rem;
-		}
-		
-		p{
-			color: #000000;
 		}
 
 
