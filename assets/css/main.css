@@ -251,6 +251,10 @@ input, select, textarea {
 			color: black
 		}
 
+		ul.items > li > h3, ul.items > li > a, ul.icons> li > a{
+			color: black
+		}
+
 		h1 {
 			font-size: 4.5rem;
 			line-height: 1.1;
@@ -287,6 +291,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 360px) {
 		header.projecthead > h3 , header.projecthead > p{
+			color: black
+		}
+
+		ul.items > li > h3, ul.items > li > a, ul.icons> li > a{
 			color: black
 		}
 
@@ -1109,6 +1117,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 1152px) {
 			header.projecthead > h3 , header.projecthead > p{
+				color: black
+			}
+
+			ul.items > li > h3, ul.items > li > a, ul.icons> li > a{
 				color: black
 			}
 	
@@ -3474,10 +3486,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
-			header.projecthead > h3 , header.projecthead > p{
-				color: black
-			}
-	
+
 			#wrapper {
 				padding: 0 0 8rem 0;
 			}
