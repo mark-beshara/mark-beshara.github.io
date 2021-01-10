@@ -142,8 +142,9 @@
 								<div class="content">
 									<p>This project was done as part of the <a style="color: black;" href="https://www.kaggle.com/c/nlp-getting-started"> Real or Not? NLP with Disaster Tweets</a>
 										kaggle Competition. The data provided from Competition was first procesed, by tokenizing the sentences, and embedding each token using pre-trainined GloVe word
-										embeddings. An average of all token embeddings was taken to create a feature vector that could be used in any machine learning classifier. A random forest classifier 
-										was then used and optimized using a cross-validation grid search. The github repository can be found <a href="https://github.com/mark-beshara/DisasterTweetPrediction" style="color: black;">here</a>.
+										embeddings. An average of all token embeddings was taken to create a feature vector that could be used in any machine learning classifier. A k-nn classifier 
+										was then used to perform the classification, achieving 75% accuracy on the test set. An example repository can be found <a href="https://github.com/mark-beshara/DisasterTweetPrediction" style="color: black;">here</a>,
+										however please note this github repository contains an older version of the project that used random forest classifisers and attempted to optimize the hyperparameters using a gridsearch.
 									</p>
 								</div>
 							</section>
