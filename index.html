@@ -42,10 +42,10 @@
 						<div class="content">
 							<p>Hi, I'm <strong>Mark Beshara</strong> and I'm programmer specialzing in artifical intelligence. My interests are in a variety 
 							of AI domains but I'm primarily interested in reinforcement learning and natural langauge processing. In addition to my primary interests I am also knowledgable in 
-							classical machine learning and deep learning. I hope to apply AI to challenging problems that currently cannot be solved by traditional means or 
+							classical machine learning and various deep learning techniques. I hope to apply AI to challenging problems that currently cannot be solved by traditional means or 
 							can be vastly improved through new technology. To do so, I am always looking for opportunities to learn new skills and knowledge. Currently I am attempting to live up to this 
 							goal by pursuing job opportunities in industry to gain practical experience in applied ML/DL as well as looking into the possibility of obtaining a PhD in the hopes of contributing to the advancement of the field.</p>
-							<span class="image main"><img src="images/pic02.jpg" alt="profile picture" /></span>
+							<span class="image main"><img src="images/pic04.jpg" alt="profile picture" /></span>
 						</div>
 					</section>
 
@@ -74,6 +74,7 @@
 												<li>Statistical Machine Learning</li>
 												<li>Neural Networks/ Deep Learning</li>
 												<li>Data Mining</li>
+												<li>Web Scrapping</li>
 												<li>Computer Vision</li>
 												<li>Natural Language Processing</li>
 												<li>Reinforcement Learning</li>
@@ -82,11 +83,17 @@
 										</td>
 										<td>
 											<ul style="list-style-type:none">
+												<li>Pytorch</li>
+												<li>huggingface</li>
+												<li>spacy</li>
 												<li>Sci-kit Learn</li>
 												<li>Numpy</li>
 												<li>Pandas</li>
 												<li>Stable-Baselines</li>
 												<li>Gym</li>
+												<li>matplotlib</li>
+												<li>MLFlow</li>
+												<li>AzureML</li>
 											</ul>
 										</td>
 										<td>
@@ -96,6 +103,8 @@
 												<li>C</li>
 												<li>HTML/CSS</li>
 												<li>MATLAB</li>
+												<li>SQL</li>
+												<li>Any new language in 1-2 weeks</li>
 											</ul>
 										</td>
 									</tr>	
@@ -112,15 +121,12 @@
 						<div class="content">
 							<h3 style="color: black;">Table of Contents</h3>
 							<ul>
-								<li><a href="#bitcoin" style="color: black;">RL Bitcoin Trader </a></li>
-								<li><a href="#disaster" style="color: black;">Kaggle Real or Not? NLP with Disaster Tweets Competition</a></li>
+								<li><a href="#otto" style="color: black;">OTTO – Multi-Objective Recommender System</a></li>
 								<li><a href="#idc9" style="color: black;">Visualizing ICD-9 Code Predicitions</a></li>
 								<li><a href="#lisp" style="color: black;">Lisp Interpreter</a></li>
-
-
 							</ul>
 							<!-- Section -->
-							<section id="bitcoin">
+							<!-- <section id="bitcoin">
 								<header class="projecthead">
 									<h3>RL Bitcoin Trader</h3>
 									<p> Taught a RL agent to trade Bitcoin with positive profit on unseen test data using historical crypto data and Stable-Baselines RL library.
@@ -130,8 +136,8 @@
 									<p>This project is currently in development, but prelimiary results will be posted soon.</p>
 									<p>Potential employers feel free to reach out to me for this projects code while I continue to work on a write up.</p>
 								</div>
-							</section>
-							<section id="disaster">
+							</section> -->
+							<!-- <section id="disaster">
 								<header class="projecthead">
 									<h3>Kaggle Real or Not? NLP with Disaster Tweets Competition</h3>
 									<p> Project designed to classify tweets depending on whether or not the tweet represents discusses 
@@ -147,12 +153,27 @@
 										however please note this github repository contains an older version of the project that used random forest classifisers and attempted to optimize the hyperparameters using a gridsearch.
 									</p>
 								</div>
+							</section> -->
+							
+							<!-- Section -->
+							<section id="otto">
+								<header class="projecthead">
+									<h3>OTTO Multi-Objective Recommender System</h3>
+									<p> Kaggle competition project which used transformers to recommend products to users based on their preferences.</p>
+								</header>
+								<div class="content">
+									<p>This kaggle contest had the goal of predicting the next set of user actions as well as the product ids associated with those actions from any given point in a users action history. Given
+										the formulation I assumed that a good model would be a transformer since this could be treated as a generative task where the tokens are the product ids/user actions taken. Currently
+										I am trying to do exactly that using huggingface and attempting to train a GPT-2 model and a custom tokenizer on the given training data using this architecture.
+									</p>
+									<p>This project is currently in development, but prelimiary results will be posted soon.</p>
+								</div>
 							</section>
+
 							<section id="idc9">
 								<header class="projecthead">
 									<h3>Visualizing ICD-9 Code Predicitions</h3>
-									<p> Explainable AI project which visualized components of convolutional neural networks to better understand classification decisions.
-									</p>
+									<p> Explainable AI project which visualized components of convolutional neural networks to better understand classification decisions.</p>
 								</header>
 								<div class="content">
 									<p>
