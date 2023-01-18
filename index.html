@@ -40,8 +40,8 @@
 							<h2>About Me</h2>
 						</header>
 						<div class="content">
-							<p>Hi, I'm <strong>Mark Beshara</strong> and I'm programmer specialzing in artifical intelligence. My interests are in a variety 
-							of AI domains but I'm primarily interested in reinforcement learning and natural langauge processing. In addition to my primary interests I am also knowledgable in 
+							<p>Hi, I'm <strong>Mark Beshara</strong> and I'm programmer specializing in artificial intelligence. My interests are in a variety 
+							of AI domains but I'm primarily interested in reinforcement learning and natural language processing. In addition to my primary interests I am also knowledgeable in 
 							classical machine learning and various deep learning techniques. I hope to apply AI to challenging problems that currently cannot be solved by traditional means or 
 							can be vastly improved through new technology. To do so, I am always looking for opportunities to learn new skills and knowledge. Currently I am attempting to live up to this 
 							goal by pursuing job opportunities in industry to gain practical experience in applied ML/DL as well as looking into the possibility of obtaining a PhD in the hopes of contributing to the advancement of the field.</p>
@@ -69,7 +69,7 @@
 												<li>Algorithms</li>
 												<li>Git</li>
 												<li>REST</li>
-												<li>Linux/UNIX Enviorments</li>
+												<li>Linux/UNIX Environments</li>
 												<li>Jupyter Notebooks</li>
 												<li>Statistical Machine Learning</li>
 												<li>Neural Networks/ Deep Learning</li>
@@ -121,8 +121,8 @@
 						<div class="content">
 							<h3 style="color: black;">Table of Contents</h3>
 							<ul>
-								<li><a href="#otto" style="color: black;">OTTO – Multi-Objective Recommender System</a></li>
-								<li><a href="#idc9" style="color: black;">Visualizing ICD-9 Code Predicitions</a></li>
+								<li><a href="#otto" style="color: black;">OTTO - Multi-Objective Recommender System</a></li>
+								<li><a href="#idc9" style="color: black;">Visualizing ICD-9 Code Predictions</a></li>
 								<li><a href="#lisp" style="color: black;">Lisp Interpreter</a></li>
 							</ul>
 							<!-- Section -->
@@ -133,7 +133,7 @@
 									</p>
 								</header>
 								<div class="content">
-									<p>This project is currently in development, but prelimiary results will be posted soon.</p>
+									<p>This project is currently in development, but preliminary results will be posted soon.</p>
 									<p>Potential employers feel free to reach out to me for this projects code while I continue to work on a write up.</p>
 								</div>
 							</section> -->
@@ -147,10 +147,10 @@
 								</header>
 								<div class="content">
 									<p>This project was done as part of the <a style="color: black;" href="https://www.kaggle.com/c/nlp-getting-started"> Real or Not? NLP with Disaster Tweets</a>
-										kaggle Competition. The data provided from Competition was first procesed, by tokenizing the sentences, and embedding each token using pre-trainined GloVe word
+										Kaggle Competition. The data provided from Competition was first processed, by tokenizing the sentences, and embedding each token using pre-trained GloVe word
 										embeddings. An average of all token embeddings was taken to create a feature vector that could be used in any machine learning classifier. A k-nn classifier 
 										was then used to perform the classification, achieving 75% accuracy on the test set. An example repository can be found <a href="https://github.com/mark-beshara/DisasterTweetPrediction" style="color: black;">here</a>,
-										however please note this github repository contains an older version of the project that used random forest classifisers and attempted to optimize the hyperparameters using a gridsearch.
+										however please note this github repository contains an older version of the project that used random forest classifiers and attempted to optimize the hyperparameters using a grid search.
 									</p>
 								</div>
 							</section> -->
@@ -162,27 +162,27 @@
 									<p> Kaggle competition project which used transformers to recommend products to users based on their preferences.</p>
 								</header>
 								<div class="content">
-									<p>This kaggle contest had the goal of predicting the next set of user actions as well as the product ids associated with those actions from any given point in a users action history. Given
+									<p>This Kaggle contest had the goal of predicting the next set of user actions as well as the product ids associated with those actions from any given point in a users action history. Given
 										the formulation I assumed that a good model would be a transformer since this could be treated as a generative task where the tokens are the product ids/user actions taken. Currently
 										I am trying to do exactly that using huggingface and attempting to train a GPT-2 model and a custom tokenizer on the given training data using this architecture.
 									</p>
-									<p>This project is currently in development, but prelimiary results will be posted soon.</p>
+									<p>This project is currently in development, but preliminary results will be posted soon.</p>
 								</div>
 							</section>
 
 							<section id="idc9">
 								<header class="projecthead">
-									<h3>Visualizing ICD-9 Code Predicitions</h3>
+									<h3>Visualizing ICD-9 Code Predictions</h3>
 									<p> Explainable AI project which visualized components of convolutional neural networks to better understand classification decisions.</p>
 								</header>
 								<div class="content">
 									<p>
-										This project focused on visualizing the attention scores from pretrained CNN models for the mult-class classification problem of assigning ICD-9 codes to discharge summaries. 
+										This project focused on visualizing the attention scores from pre-trained CNN models for the multi-class classification problem of assigning ICD-9 codes to discharge summaries. 
 										The project used the MIMIC-III dataset, and the pre-trained model was the CAML model, where one can read about <a style="color: black;" href="https://arxiv.org/pdf/1802.05695.pdf">here</a>, 
 										and find the github repository <a style="color: black;" href="https://github.com/jamesmullenbach/caml-mimic">here</a>.
 									</p>
 
-									<p> Our project modified the original scripts to save the attention weights and ouputs from the pre-trained model for a series of discharge summaries with true labels known. We visualized
+									<p> Our project modified the original scripts to save the attention weights and outputs from the pre-trained model for a series of discharge summaries with true labels known. We visualized
 										the results by writing an interactive tool with D3 to visualize the attention score for each word in the discharge summary for each label. Unfortunately the MIMIC-III dataset cannot be 
 										publicly released, so the D3 script is useless without it. However below you will find 2 presentations on this project with a more thorough explanation of the project as well
 										as some examples.
